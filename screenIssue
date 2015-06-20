@@ -1,0 +1,12 @@
+after installing screen and trying to run it got an erro
+{ scripts }  » screen
+Directory /tmp/uscreens/S-Willis must have mode 700.
+
+found link to fix the issue
+
+https://plus.google.com/+FranklinChou/posts/dKqGHBocVLZ
+
+ranthe below commands which fixed it
+{ scripts }  » chgrp Users /tmp/uscreens/S-Willis
+{ scripts }  » chmod 700 /tmp/uscreens/S-Willis
+
